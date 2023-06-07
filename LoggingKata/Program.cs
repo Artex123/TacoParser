@@ -78,7 +78,7 @@ namespace LoggingKata
             }
             // Once you've looped through everything, you've found the two Taco Bells farthest away from each other.
 
-            logger.LogInfo($"{tacoBell1.Name} and {tacoBell2.Name} have the longest distance between them mmmm....tacos");
+            logger.LogInfo($"{tacoBell1.Name} and {tacoBell2.Name} have the longest distance between them {Math.Round(distance * 0.00062)} miles from taco to taco mmmm....tacos");
         }
     }
 }
